@@ -14,8 +14,8 @@ class Cliente : Persona {
 
 	// Metodos
 	// set (modificar)
-	void setNit(string nit){pronit = tnit;}
-	void setCui(string cui){procui = tcui;}
+	void setNit(string nit){pronit = nit;}
+	void setCui(string cui){procui = cui;}
 	void setNombres(string nom){nombres = nom;}
 	void setApellidos(string ape){apellidos = ape;}
 	void setDireccion(string dir){direccion = dir;}
